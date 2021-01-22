@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.springpj.model.User;
 import com.example.springpj.repository.UserRepository;
 
-// manandakan sebagai class controller dan membuat sebuah route dengan nama user.
-
 @RestController
 @RequestMapping("/user")
 public class UserController {
